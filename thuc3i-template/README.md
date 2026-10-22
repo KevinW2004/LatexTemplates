@@ -33,3 +33,12 @@ ZIP 仅打包模板源码和必要资源。
 
 两个版本的主体源码与 class 相同，差异只在本说明、`branding.tex` 和实验室 logo 资源。
 `.cls` 与 `.bst` 的来源和许可见 [NOTICE.md](NOTICE.md)。
+
+## 图表配色参考
+
+参考论文的蓝灰配色记录在 [COLORS.md](COLORS.md)，包含精确 HEX、来源和
+[色板](palette.svg)。[colors.tex](colors.tex) 已由 `preamble.tex` 加载。
+主曲线使用 `#2A78D6`，基线采用不同深浅的暖灰；表格另有浅蓝与浅灰底色。
+
+紧凑的单图可按约半个正文宽度排版，两个相关图可用 `minipage` 并排；
+含大量文字或多个面板的图应按可读性选择更大的宽度。

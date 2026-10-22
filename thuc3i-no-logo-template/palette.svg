@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="250" viewBox="0 0 750 250">
+<rect width="750" height="250" fill="white"/>
+<rect x="14" y="12" width="128" height="62" rx="5" fill="#2A78D6" stroke="#DDDDDD"/>
+<text x="14" y="94" font-family="sans-serif" font-size="13" fill="#222222">Main blue</text>
+<text x="14" y="113" font-family="monospace" font-size="13" fill="#444444">#2A78D6</text>
+<rect x="162" y="12" width="128" height="62" rx="5" fill="#5F5F5A" stroke="#DDDDDD"/>
+<text x="162" y="94" font-family="sans-serif" font-size="13" fill="#222222">Dark gray</text>
+<text x="162" y="113" font-family="monospace" font-size="13" fill="#444444">#5F5F5A</text>
+<rect x="310" y="12" width="128" height="62" rx="5" fill="#8A8A85" stroke="#DDDDDD"/>
+<text x="310" y="94" font-family="sans-serif" font-size="13" fill="#222222">Gray</text>
+<text x="310" y="113" font-family="monospace" font-size="13" fill="#444444">#8A8A85</text>
+<rect x="458" y="12" width="128" height="62" rx="5" fill="#BDBDB7" stroke="#DDDDDD"/>
+<text x="458" y="94" font-family="sans-serif" font-size="13" fill="#222222">Light gray</text>
+<text x="458" y="113" font-family="monospace" font-size="13" fill="#444444">#BDBDB7</text>
+<rect x="606" y="12" width="128" height="62" rx="5" fill="#E6E6E3" stroke="#DDDDDD"/>
+<text x="606" y="94" font-family="sans-serif" font-size="13" fill="#222222">Grid</text>
+<text x="606" y="113" font-family="monospace" font-size="13" fill="#444444">#E6E6E3</text>
+<rect x="14" y="134" width="128" height="62" rx="5" fill="#5A93D0" stroke="#DDDDDD"/>
+<text x="14" y="216" font-family="sans-serif" font-size="13" fill="#222222">Table blue</text>
+<text x="14" y="235" font-family="monospace" font-size="13" fill="#444444">#5A93D0</text>
+<rect x="162" y="134" width="128" height="62" rx="5" fill="#D3E3F3" stroke="#DDDDDD"/>
+<text x="162" y="216" font-family="sans-serif" font-size="13" fill="#222222">Light blue</text>
+<text x="162" y="235" font-family="monospace" font-size="13" fill="#444444">#D3E3F3</text>
+<rect x="310" y="134" width="128" height="62" rx="5" fill="#DCEAF8" stroke="#DDDDDD"/>
+<text x="310" y="216" font-family="sans-serif" font-size="13" fill="#222222">Band</text>
+<text x="310" y="235" font-family="monospace" font-size="13" fill="#444444">#DCEAF8</text>
+<rect x="458" y="134" width="128" height="62" rx="5" fill="#EEEEEA" stroke="#DDDDDD"/>
+<text x="458" y="216" font-family="sans-serif" font-size="13" fill="#222222">Row gray</text>
+<text x="458" y="235" font-family="monospace" font-size="13" fill="#444444">#EEEEEA</text>
+<rect x="606" y="134" width="128" height="62" rx="5" fill="#F4F7FB" stroke="#DDDDDD"/>
+<text x="606" y="216" font-family="sans-serif" font-size="13" fill="#222222">Abstract</text>
+<text x="606" y="235" font-family="monospace" font-size="13" fill="#444444">#F4F7FB</text>
+</svg>

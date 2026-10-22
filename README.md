@@ -13,6 +13,9 @@
 在任一源码目录执行 `latexmk -interaction=nonstopmode -file-line-error main.tex`，
 输出位于 `build/main.pdf`。编译要求、替换位置及许可说明见各目录的 README 和 NOTICE。
 
+图表蓝灰色号、使用建议与色板见 [配色参考](thuc3i-template/COLORS.md)；
+两套模板均包含同样的 `colors.tex`，ZIP 同步提供。
+
 ## 其他已有模板
 
 - [fairmeta-template.zip](fairmeta-template.zip)
