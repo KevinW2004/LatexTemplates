@@ -1,0 +1,26 @@
+% Generic additions to the packages already provided by thuc3i.cls.
+\usepackage{mathtools}
+\usepackage[capitalise,noabbrev]{cleveref}
+\usepackage{fontawesome5}
+\usepackage[most]{tcolorbox}
+
+\definecolor{AbstractBgColor}{HTML}{F4F7FB}
+\definecolor{ProjectLinkBorder}{HTML}{39C4DC}
+\definecolor{ProjectLinkBg}{HTML}{ECFAFD}
+\newcommand{\projectlink}[2]{%
+  \href{#1}{\tcbox[on line, colback=ProjectLinkBg,
+    colframe=ProjectLinkBorder, boxrule=0.55pt, arc=3pt,
+    boxsep=0pt, left=5pt, right=5pt, top=1.5pt, bottom=1.5pt]{%
+    \makebox[64pt][c]{\color{black}\mdseries\fontsize{8.5}{10}\selectfont
+      \rule[-2.5pt]{0pt}{10pt}#2}}}%
+}
+\renewcommand{\absfont}{\linespread{1.1}\fontsize{10}{12}\selectfont}
+
+% Place the bibliography in the contents at its heading.
+\let\reportbibsection\bibsection
+\renewcommand{\bibsection}{%
+  \reportbibsection
+  \phantomsection
+  \addcontentsline{toc}{section}{\refname}%
+}
+\graphicspath{{figures/}}

@@ -1,0 +1,84 @@
+% !TEX program = pdflatex
+\documentclass[11pt, a4paper, onecolumn, thu]{thuc3i}
+
+\usepackage[authoryear, sort&compress, square]{natbib}
+\bibliographystyle{unsrtnat-numbered}
+\input{preamble}
+
+% Replace the title, author details, and resource URLs for each paper.
+\newcommand{\shorttitle}{Short Paper Title}
+\title{Paper Title:\\A Clear and Descriptive Subtitle}
+\author{%
+  First Author$^{1,*}$, Second Author$^{2,*}$, Third Author$^{1,\dagger}$
+  \vspace{1mm} \\
+  $^1$Institution One \quad $^2$Institution Two\\
+  \textbf{$^*$ Equal Contribution.}~~
+  \textbf{$^\dagger$ Corresponding Author.}
+  \vspace{1mm} \\
+  \projectlink{https://example.org/code}{\faGithub\hspace{4pt}GitHub}%
+  \hspace{5pt}%
+  \projectlink{https://example.org/models}{%
+    \raisebox{-2pt}{\includegraphics[height=10pt]{assets/huggingface-logo.png}}%
+    \hspace{3pt}Hugging Face}
+}
+\reportnumber{}
+\input{branding}
+\fancyhead[C]{\footerfont \shorttitle}
+
+% The class collects the abstract before \begin{document}.
+% Keep environments such as itemize outside this abstract block.
+\begin{abstract}
+  \input{sections/abstract}
+\end{abstract}
+
+\begin{document}
+\begin{tcolorbox}[
+  colback=AbstractBgColor,
+  colframe=AbstractBgColor,
+  arc=5pt,
+  auto outer arc,
+  boxrule=0pt,
+  left=8pt, right=8pt,
+  top=4pt, bottom=4pt,
+  parbox=false,
+  width=\textwidth,
+  before skip=0pt,
+  after skip=0pt,
+  enlarge top by=-12pt
+]
+  \setlength{\parskip}{3pt}
+  \maketitle
+\end{tcolorbox}
+
+% Optional first-page overview; replace this box with \includegraphics.
+\begin{figure}[htbp]
+  \centering
+  \fbox{\parbox[c][35mm][c]{0.90\linewidth}{%
+    \centering\textbf{Overview figure}\\[6pt]
+    Replace this box with a paper-specific figure.
+  }}
+  \caption{An illustrative overview placeholder. Replace the box and caption together.}
+  \label{fig:overview}
+\end{figure}
+
+% Optional contents page; remove this block for a short paper.
+\clearpage
+\begingroup
+  \setlength{\parskip}{2pt}
+  \tableofcontents
+\endgroup
+
+\clearpage
+\input{sections/introduction}
+\input{sections/related_work}
+\input{sections/method}
+\input{sections/experiments}
+\input{sections/discussion}
+\input{sections/conclusion}
+
+\bibliography{main}
+
+\clearpage
+\appendix
+\input{sections/appendix}
+\end{document}

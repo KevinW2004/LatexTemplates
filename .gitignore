@@ -1,2 +1,8 @@
 /*/
 */
+
+# Editable THUC3I templates (other directories retain the existing ignore rule).
+!/thuc3i-template/
+!/thuc3i-template/**/
+!/thuc3i-no-logo-template/
+!/thuc3i-no-logo-template/**/
